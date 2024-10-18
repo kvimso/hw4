@@ -1,0 +1,46 @@
+.card {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+  }
+
+  .text{
+    color: black;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card h1,
+  .card h2 {
+    margin: 0.5rem 0;
+  }
+  
+  .card p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 600px) {
+    .card {
+      width: 90%;
+    }
+  }
+
+  .photo{
+    width: 150x;
+    height: 150px;
+  }

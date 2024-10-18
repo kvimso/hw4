@@ -1,0 +1,22 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --button-bg: #007bff;
+  --button-text: white;
+  --border-color: #ddd;
+  --list-bg: #f9f9f9;
+}
+
+[data-theme="dark"] {
+  --bg-color: #333;
+  --text-color: white;
+  --button-bg: #444;
+  --button-text: white;
+  --border-color: #555;
+  --list-bg: #444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
